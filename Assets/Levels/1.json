@@ -1,0 +1,4 @@
+﻿{
+  "WaveCapacity": 5,
+  "Enemies": [ "minion", "minion", "minion", "giant", "giant" ]
+}
