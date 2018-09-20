@@ -1089,6 +1089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40db3415fbfb54730885e2453f7f57f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canRayCast: 1
   enemyType: 2
   target: {fileID: 0}
   spawn: {fileID: 0}
@@ -1098,6 +1099,7 @@ MonoBehaviour:
   index: 0
   freezingTime: 3.5
   animator: {fileID: 95249921775241812}
+  animatorSpeed: 1
   healthBarSystem: {fileID: 0}
   damage: 100
   range: 25
@@ -1111,6 +1113,10 @@ MonoBehaviour:
   smashParticles: {fileID: 1079988371373266, guid: c9973af7173c647fc8c36a49126f2513,
     type: 2}
   smashGround: {fileID: 1639988594483616}
+  material: {fileID: 1184952823142260}
+  iceMat: {fileID: 0}
+  ogMat: {fileID: 0}
+  destroyIce: {fileID: 0}
 --- !u!114 &114820662981061630
 MonoBehaviour:
   m_ObjectHideFlags: 1
